@@ -33,7 +33,7 @@ date_default_timezone_set("Europe/Amsterdam");
     <title>Example PHP checkout</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript"
-            src="https://checkoutshopper-test.adyen.com/checkoutshopper/assets/js/sdk/checkoutSDK.1.3.0.min.js"></script>
+            src="https://checkoutshopper-test.adyen.com/checkoutshopper/assets/js/sdk/checkoutSDK.1.5.0.min.js"></script>
     <script src="assets/js/PaymentSessionCall.js" type="text/javascript"></script>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -43,7 +43,7 @@ date_default_timezone_set("Europe/Amsterdam");
         <h3>To run this web checkout example, edit the following variables in the <b>config/authentication.ini</b> file:
         </h3>
         <p>
-            <b>merchantAccount</b>= "YOUR MERCHANT ACCOUNT", more information in our <a
+            <b>merchantAccount</b>= "LukeStrudwickCOM", more information in our <a
                     href="https://docs.adyen.com/developers/get-started-with-adyen/create-a-test-account"
                     target="_blank">Getting
                 started guide</a>.<br/>
