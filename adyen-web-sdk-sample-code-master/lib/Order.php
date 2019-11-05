@@ -25,7 +25,7 @@
 class Order
 {
     /** @array $amount - Amount is a combination of value and currency */
-    public $amount = ['value' => 19123, 'currency' => "EUR"];
+    public $amount = ['value' => 10000, 'currency' => "GBP"];
 
     public function getAmount()
     {
@@ -49,7 +49,7 @@ class Order
     }
 
     /** @var $shopperLocale - The shopper locale : https://docs.adyen.com/developers/in-app-integration/checkout-api-reference/paymentSession */
-    public $shopperLocale = 'en_US';
+    public $shopperLocale = 'en_GB';
 
     public function getShopperLocale()
     {
@@ -57,7 +57,7 @@ class Order
     }
 
     /** @var $countryCode - The countryCode influences the returned payment methods */
-    public $countryCode = 'DE';
+    public $countryCode = 'GB';
 
     public function getCountryCode()
     {
@@ -72,7 +72,7 @@ class Order
         return $this->channel;
     }
 
-    public $sdkVersion = "1.3.0";
+    public $sdkVersion = "1.9.13";
 
     public function getSDKVersion() 
     {
